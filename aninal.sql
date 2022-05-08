@@ -26,7 +26,7 @@ CREATE TABLE colors (
 CREATE TABLE animal_color (
     animals_id INTEGER,
     color_id INTEGER,
-    FOREIGN KEY (animals_id) REFERENCES new_animals_table_TEST(name_id),
+    FOREIGN KEY (animals_id) REFERENCES new_animals_table(name_id),
     FOREIGN KEY (color_id) REFERENCES colors(colors_id)
 
 );
