@@ -13,4 +13,4 @@ def index(itemid):
     animal = one_animal(itemid)
     return jsonify(animal)
 
-app.run(debug=True)
+app.run()
